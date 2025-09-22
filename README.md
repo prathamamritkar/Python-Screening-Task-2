@@ -25,7 +25,7 @@ I followed the CRAFT technique for prompt structure.
 > Maintain a Socratic, constructive, non-revealing, encouraging, helpful, student-friendly feedback tone and style.
 
 ### Q. How you ensured it avoids giving the solution?
-AI avoids giving the solution by indirectly mentioning it in _Role, Action, Tone_ and mentioning 'Socratic' in _Role, Tone_ in prompt.
+AI avoids giving the solution by indirectly mentioning it in _Role, Action, Tone_ and mentioning 'Socratic' in _Role, Tone_ of prompt.
 
 ### Q. How it encourages helpful, student-friendly feedback?
 It encourages helpful, student-friendly feedback as the _Tone_ is crafted thus.
