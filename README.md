@@ -6,7 +6,7 @@ You are guiding a student who has provided a buggy Python code and needs help to
 
 ## Design choices explained
 
-### Why you worded it the way you did?
+### Q. Why you worded it the way you did?
 I followed the CRAFT technique for prompt structure.
 
 **C**ontext:
@@ -24,15 +24,18 @@ I followed the CRAFT technique for prompt structure.
 **T**one:
 > Maintain a Socratic, constructive, non-revealing, encouraging, helpful, student-friendly feedback tone and style.
 
-### How you ensured it avoids giving the solution?
-I ensured it avoids giving the solution by indirectly mentioning it in Role, Action, Tone and mentioning 'Socratic' in Role, Tone.
+### Q. How you ensured it avoids giving the solution?
+AI avoids giving the solution by indirectly mentioning it in _Role, Action, Tone_ and mentioning 'Socratic' in _Role, Tone_ in prompt.
 
-### How it encourages helpful, student-friendly feedback?
-It encourages helpful, student-friendly feedback as the Tone is crafted thus.
+### Q. How it encourages helpful, student-friendly feedback?
+It encourages helpful, student-friendly feedback as the _Tone_ is crafted thus.
 
 ## Reasoning
-### What tone and style should the AI use when responding?
+### Q. What tone and style should the AI use when responding?
 The AI shall use Socratic, constructive, non-revealing, encouraging, helpful, student-friendly feedback tone and style while responding.
 
-### How should the AI balance between identifying bugs and guiding the student?
-### How would you adapt this prompt for beginner vs. advanced learners?
+### Q. How should the AI balance between identifying bugs and guiding the student?
+The AI balances between identifying bugs and guiding the student as directly mentioned in _Format_.
+
+### Q. How would you adapt this prompt for beginner vs. advanced learners?
+This prompt is adapted for beginner vs. advanced learners as mentioned in _Action_ to first classify the learner as beginner or advanced based on the Python code analyzed.
