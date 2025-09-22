@@ -38,4 +38,4 @@ The AI shall use Socratic, constructive, non-revealing, encouraging, helpful, st
 The AI balances between identifying bugs and guiding the student as directly mentioned in _Format_.
 
 ### Q. How would you adapt this prompt for beginner vs. advanced learners?
-This prompt is adapted for beginner vs. advanced learners as mentioned in _Action_ to first classify the learner as beginner or advanced based on the Python code analyzed.
+This prompt is adapted for beginner vs. advanced learners as mentioned in _Action_ to first classify the learner as beginner or advanced based on the Python code analyzed and then _Format_ the feedback adapted to the level of learner.
